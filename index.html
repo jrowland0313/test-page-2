@@ -2,150 +2,93 @@
 <html lang="en">
 
 <head>
-    <title>South Carolina Gamecocks Baseball Statistics</title>
+    <title>2024 Baseball Roster</title>
     <style>
         body {
-            background-color: #6B2026; 
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
+            background-color: black; /* Set background color to black */
+            color: white; /* Set text color to white */
+            margin: 0; /* Remove default margins */
+            padding: 0; /* Remove default padding */
+            font-family: Arial, sans-serif; /* Set font family */
+            text-align: center; /* Center all content */
         }
 
         header {
-            text-align: center;
-            margin-bottom: 20px;
+            margin-top: 50px; /* Add margin top to center the header vertically */
         }
 
-        header h1 {
-            display: inline-block;
-            max-width: 80%;
-        }
-
-        header img {
-            vertical-align: middle;
-            margin-right: 10px;
-            width: 80px;
-            height: 80px;
+        nav {
+            margin-top: 20px; /* Add margin top for spacing */
         }
 
         nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0;
-            display: flex;
-            justify-content: center;
         }
 
         nav ul li {
-            margin: 0 10px;
-            display: inline;
+            display: inline-block; /* Display list items inline */
+            margin: 0 10px; /* Add margin between list items */
         }
 
         .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            color: white;
-            text-align: center;
+            margin-top: 50px; /* Add margin top for spacing */
+            display: flex; /* Use flexbox to align items */
+            justify-content: center; /* Center items horizontally */
+            flex-wrap: wrap; /* Allow items to wrap to the next line */
         }
 
-        .container h1,
-        .container h2,
-        .container h3 {
-            color: white;
+        .player {
+            margin: 20px; /* Add margin around each player */
+            text-align: center; /* Center the content */
         }
 
-        .article-wrapper {
-            display: inline-block;
-            margin: 20px;
+        .player img {
+            display: block; /* Ensure images are block elements */
+            margin: 0 auto 10px; /* Center the image horizontally and add margin below */
+            width: 100px; /* Set image width */
+            height: 100px; /* Set image height */
+            object-fit: cover; /* Maintain aspect ratio */
         }
 
-        .article-img {
-            display: block;
-            margin: 0 auto;
-            width: 150px;
-            height: auto;
-            border-radius: 50%;
+        .player h4 {
+            margin: 0; /* Remove default margin */
+            font-size: 14px; /* Decrease font size */
         }
-
-        .article-caption {
-            text-align: center;
-        }
-
-        .standings-container {
-            display: flex;
-            justify-content: center;
-        }
-
-        .standings-container > div {
-            text-align: left;
-            margin: 0 10px;
-        }
-
     </style>
 </head>
 
 <body>
     <header>
-        <img src="https://i.pinimg.com/originals/1b/7a/b4/1b7ab40646ca70c1502598e2a5763454.png" alt="Baseball Logo">
-        <h1>South Carolina Gamecocks Baseball Statistics</h1>
-        <nav>
-            <ul>
-                <li>Baseball</li>
-                <li>Schedule</li>
-                <li>Roster</li>
-                <li>Stats</li>
-                <li>More Links</li>
-            </ul>
-        </nav>
+        <h1>2024 Baseball Roster</h1>
     </header>
+    <h2>Staff <img src="https://i.pinimg.com/736x/65/59/0a/65590ab0616c647c8eef29f6ea45881f.jpg" height="35" width="35" alt="Logo White"> Players</h2>
+
+    <nav>
+        <ul>
+            <li>Baseball</li>
+            <li>Schedule</li>
+            <li>Roster</li>
+            <li>Stats</li>
+            <li>More Links</li>
+        </ul>
+    </nav>
 
     <div class="container">
-        <div id="articles" class="headlines">
-            <div class="article-wrapper">
-                <img src="https://th.bing.com/th/id/OIP.p6dl9MAX5rF10fSCyn64sAHaFk?rs=1&pid=ImgDetMain" alt="Runner" width="150" height="125" class="article-img">
-                <div class="article-caption">How far will the 2024 Gamecocks go?</div>
-            </div>
-
-            <div class="article-wrapper">
-                <img src="https://www.thestate.com/sports/college/matt-connolly-blog/t9hr0v/picture79168447/alternates/LANDSCAPE_1140/usc53" alt="Pitcher" width="150" height="125" class="article-img">
-                <div class="article-caption">Recap of 2023</div>
-            </div>
-
-            <div class="article-wrapper">
-                <img src="https://th.bing.com/th/id/OIP.czIGBoBO3gxdv8cbETQVUAHaEK?rs=1&pid=ImgDetMain" alt="Coach" width="150" height="125" class="article-img">
-                <div class="article-caption">Is Mark Kingston on the hot seat?</div>
-            </div>
+        <div class="player">
+            <img src="https://gamecocksonline.com/imgproxy/KMRTA48mAIGVGpfffjSHtqQJH8EgMaAMjBv4Rd5gWFA/fit/564/832/ce/0/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2dhbWVjb2Nrc29ubGluZS1jb20vMjAyMi8xMi8zNzk1OTIyMS1icmV3ZXItZHlsYW4uanBn.png" alt="Player">
+            <h4>Dylan Brewer - Outfielder</h4>
         </div>
-
-        <div class="standings-container">
-            <div id="SECList" class="Numbers">
-                <h2>SEC</h2>
-                <h3>South Carolina 16-5</h3>
-                <h3>LSU 15-6</h3>
-                <h3>Arkansas 15-7</h3>
-                <h3>Tennessee 14-8</h3>
-                <h3>Alabama 14-9</h3>
-                <h3>Florida 14-8</h3>
-                <h3>Vanderbilt 13-9</h3>
-            </div>
-
-            <div id="OverallList" class="Numbers">
-                <h2>Overall</h2>
-                <h3>South Carolina 25-10</h3>
-                <h3>LSU 24-11</h3>
-                <h3>Arkansas 22-14</h3>
-                <h3>Tennessee 22-15</h3>
-                <h3>Alabama 24-11</h3>
-                <h3>Florida 25-9</h3>
-                <h3>Vanderbilt 25-9</h3>
-            </div>
+        <div class="player">
+            <img src="https://snworksceo.imgix.net/dth/ddb054f3-5c49-43d6-80b8-59507cd94dc9.sized-1000x1000.jpg?w=1000" alt="Player">
+            <h4>Tyler Causey - Infielder</h4>
+        </div>
+        <div class="player">
+            <img src="https://www.thestate.com/latest-news/q1end3/picture276909853/alternates/LANDSCAPE_1140/USATSI_20583496.jpg" alt="Player">
+            <h4>Parker Noland - Infielder</h4>
         </div>
     </div>
-
-    <script>
-        // You can add JavaScript functionality here if needed
-    </script>
 </body>
 
 </html>
